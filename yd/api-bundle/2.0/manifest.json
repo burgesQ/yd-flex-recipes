@@ -4,7 +4,7 @@
         "api-bundle"
     ],
     "bundles": {
-        "YD\\APIBundle\YDAPIBundle": [
+        "YD\\APIBundle\\YDAPIBundle": [
             "all"
         ]
     }

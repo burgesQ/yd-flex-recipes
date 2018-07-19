@@ -1,0 +1,11 @@
+{
+    "aliases": [
+        "yd-api-bundle",
+        "api-bundle"
+    ],
+    "bundles": {
+        "YD\\APIBundle\YDAPIBundle": [
+            "all"
+        ]
+    }
+}

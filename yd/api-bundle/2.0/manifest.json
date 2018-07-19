@@ -1,0 +1,14 @@
+{
+    "aliases": [
+        "yd-api-bundle",
+        "api-bundle"
+    ],
+    "bundles": {
+        "YD\\APIBundle\\YDAPIBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    }
+}

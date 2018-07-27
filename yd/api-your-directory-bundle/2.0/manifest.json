@@ -13,6 +13,6 @@
     },
     "gitignore": [
         "config/routes/yd_api_your_directory_bundle.yaml",
-        "config/routes/dev/yd_api_your_directory_bundle.yaml",
+        "config/routes/dev/yd_api_your_directory_bundle.yaml"
     ]
 }

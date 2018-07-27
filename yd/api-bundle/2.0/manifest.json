@@ -12,7 +12,7 @@
         "config/": "%CONFIG_DIR%/"
     },
     "gitignore": [
-        "config/routes/yd-api-bundle.yaml",
-        "config/routes/dev/yd-api-bundle.yaml",
+        "config/routes/yd_api_bundle.yaml",
+        "config/routes/dev/yd_api_bundle.yaml",
     ]
 }

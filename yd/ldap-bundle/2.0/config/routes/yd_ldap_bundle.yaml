@@ -1,0 +1,16 @@
+api_v_one_user_box:
+    prefix:      '/api/'
+    name_prefix: 'api_v_one'
+    resource:    'YD\LDAPBundle\Controller\ApiVOneUserBoxController'
+
+api_v_one_ldap_user:
+    type:        'rest'
+    prefix:      '/api/v1'
+    name_prefix: 'api_v_one'
+    resource:    'YD\LDAPBundle\Controller\ApiVOneLdapUserController'
+
+api_v_one_sql_user:
+    type:        'rest'
+    prefix:      '/api/v1'
+    name_prefix: 'api_v_one'
+    resource:    'YD\LDAPBundle\Controller\ApiVOneSqlUserController'

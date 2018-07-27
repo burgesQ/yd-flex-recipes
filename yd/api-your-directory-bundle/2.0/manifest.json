@@ -1,0 +1,18 @@
+{
+    "aliases": [
+        "yd-api-your-directory-bundle",
+        "api-your-directory-bundle"
+    ],
+    "bundles": {
+        "YD\\APIYourDirectoryBundle\\YDAPIYourDirectoryBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "gitignore": [
+        "config/routes/yd_api_your_directory_bundle.yaml",
+        "config/routes/dev/yd_api_your_directory_bundle.yaml"
+    ]
+}

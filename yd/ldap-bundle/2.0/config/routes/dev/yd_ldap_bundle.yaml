@@ -1,0 +1,4 @@
+api_v_one_ldap_dev:
+    prefix:      '/api/'
+    name_prefix: 'api_v_one'
+    resource:    'YD\LDAPBundle\Controller\DefaultController'

@@ -1,4 +1,4 @@
-api_v_one_mail:
-    prefix:      '/api/test/mail'
+api_v_one_mail_dev:
+    prefix:      '/api'
     name_prefix: 'api_v_one'
     resource:    'YD\MailBundle\Controller\DefaultController'

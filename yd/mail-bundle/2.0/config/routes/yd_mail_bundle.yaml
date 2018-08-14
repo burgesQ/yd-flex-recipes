@@ -1,0 +1,4 @@
+api_v_one_mail:
+    prefix:      '/api/v1'
+    name_prefix: 'api_v_one'
+    resource:    'YD\MailBundle\Controller\ApiVOneMailController'

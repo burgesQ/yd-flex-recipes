@@ -1,0 +1,17 @@
+{
+    "aliases": [
+        "yd-tasks-bundle",
+        "tasks-bundle"
+    ],
+    "bundles": {
+        "YD\\TasksBundle\\YDMailBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "gitignore": [
+        "config/routes/yd_tasks_bundle.yaml",
+    ]
+}

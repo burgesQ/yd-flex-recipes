@@ -1,0 +1,17 @@
+{
+    "aliases": [
+        "yd-calendar-bundle",
+        "calendar-bundle"
+    ],
+    "bundles": {
+        "YD\\CalendarBundle\\YDCalendarBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "gitignore": [
+        "config/routes/yd_calendar_bundle.yaml"
+    ]
+}

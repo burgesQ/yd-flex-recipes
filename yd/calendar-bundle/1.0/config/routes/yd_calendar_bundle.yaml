@@ -1,0 +1,5 @@
+api_v_one_calendar:
+    prefix:      '/api/v1/'
+    name_prefix: 'api_v_one'
+    resource:    'YD\CalendarBundle\Controller\ApiVOneEventController'
+

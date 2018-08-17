@@ -12,6 +12,6 @@
         "config/": "%CONFIG_DIR%/"
     },
     "gitignore": [
-        "config/routes/yd_tasks_bundle.yaml",
+        "config/routes/yd_tasks_bundle.yaml"
     ]
 }

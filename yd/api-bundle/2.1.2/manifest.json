@@ -1,0 +1,19 @@
+{
+    "aliases": [
+        "yd-api-bundle",
+        "api-bundle"
+    ],
+    "bundles": {
+        "YD\\APIBundle\\YDAPIBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_api_bundle.yaml",
+        "Ressources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_api_bundle.yaml"
+    },
+    "gitignore": [
+        "config/routes/yd_api_bundle.yaml",
+        "config/routes/dev/yd_api_bundle.yaml"
+    ]
+}

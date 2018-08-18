@@ -1,0 +1,19 @@
+{
+    "aliases": [
+        "yd-mail-bundle",
+        "mail-bundle"
+    ],
+    "bundles": {
+        "YD\\MailBundle\\YDMailBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_mail_bundle.yaml",
+        "Resources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_mail_bundle.yaml"
+    },
+    "gitignore": [
+        "config/routes/yd_mail_bundle.yaml",
+        "config/routes/dev/yd_mail_bundle.yaml"
+    ]
+}

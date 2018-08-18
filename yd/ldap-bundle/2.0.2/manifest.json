@@ -1,0 +1,19 @@
+{
+    "aliases": [
+        "yd-ldap-bundle",
+        "ldap-bundle"
+    ],
+    "bundles": {
+        "YD\\LDAPBundle\\YDLDAPBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_ldap_bundle.yaml",
+        "Ressources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_ldap_bundle.yaml"
+    },
+    "gitignore": [
+        "config/routes/yd_ldap_bundle.yaml",
+        "config/routes/dev/yd_ldap_bundle.yaml"
+    ]
+}

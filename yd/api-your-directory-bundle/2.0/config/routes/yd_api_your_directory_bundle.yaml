@@ -1,5 +1,0 @@
-api_v_one_yd_company:
-    type:        'rest'
-    prefix:      '/api/v1'
-    name_prefix: 'api_v_one'
-    resource:    'YD\APIYourDirectoryBundle\Controller\ApiVOneCompanyController'

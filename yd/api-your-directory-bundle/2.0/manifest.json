@@ -8,11 +8,10 @@
             "all"
         ]
     },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
+    "copy-from-package": {
+        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_api_your_directory_bundle.yaml"
     },
     "gitignore": [
-        "config/routes/yd_api_your_directory_bundle.yaml",
-        "config/routes/dev/yd_api_your_directory_bundle.yaml"
+        "config/routes/yd_api_your_directory_bundle.yaml"
     ]
 }

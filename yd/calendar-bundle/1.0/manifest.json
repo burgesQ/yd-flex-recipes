@@ -12,7 +12,7 @@
         "calendar_host": "caldav.php"
     },
     "copy-from-package": {
-        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_calendar_bundle.yaml"
+        "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_calendar_bundle.yaml"
     },
     "gitignore": [
         "config/routes/yd_calendar_bundle.yaml"

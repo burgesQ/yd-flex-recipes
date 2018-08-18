@@ -8,8 +8,9 @@
             "all"
         ]
     },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
+    "copy-from-package": {
+        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_ldap_bundle.yaml",
+        "Ressources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_ldap_bundle.yaml"
     },
     "gitignore": [
         "config/routes/yd_ldap_bundle.yaml",

@@ -14,10 +14,6 @@
     "copy-from-package": {
         "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_calendar_bundle.yaml"
     },
-    "composer-scripts": {
-        "make cache-warmup": "script",
-        "doctrine:migration:execute": "symfony-cmd"
-    }
     "gitignore": [
         "config/routes/yd_calendar_bundle.yaml"
     ]

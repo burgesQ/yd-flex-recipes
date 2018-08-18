@@ -9,8 +9,8 @@
         ]
     },
     "copy-from-package": {
-        "Ressources/config/routing.yml": "%CONFIG_DIR%/routes/yd_api_bundle.yaml",
-        "Ressources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_api_bundle.yaml"
+        "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_api_bundle.yaml",
+        "Resources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_api_bundle.yaml"
     },
     "gitignore": [
         "config/routes/yd_api_bundle.yaml",

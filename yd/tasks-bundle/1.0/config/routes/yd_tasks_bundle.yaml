@@ -1,9 +1,0 @@
-api_v_one_task:
-    prefix:      '/api/v1/'
-    name_prefix: 'api_v_one'
-    resource:    'YD\TasksBundle\Controller\ApiVOneTaskController'
-
-api_v_one_board:
-    prefix:      '/api/v1/'
-    name_prefix: 'api_v_one'
-    resource:    'YD\TasksBundle\Controller\ApiVOneBoardController'

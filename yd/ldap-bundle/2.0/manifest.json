@@ -10,9 +10,5 @@
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"
-    },
-    "gitignore": [
-        "config/routes/yd_ldap_bundle.yaml",
-        "config/routes/dev/yd_ldap_bundle.yaml"
-    ]
+    }
 }

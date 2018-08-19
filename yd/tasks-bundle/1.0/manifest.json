@@ -10,8 +10,5 @@
     },
     "copy-from-package": {
         "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_tasks_bundle.yaml",
-    },
-    "gitignore": [
-        "config/routes/yd_tasks_bundle.yaml"
-    ]
+    }
 }

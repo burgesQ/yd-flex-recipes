@@ -11,5 +11,6 @@
     "copy-from-package": {
         "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_ldap_bundle.yaml",
         "Resources/config/routing_dev.yml": "%CONFIG_DIR%/routes/dev/yd_ldap_bundle.yaml"
+        "Migrations/VersionLDAP.php": "%CONFIG_DIR%/../src/Migrations/VersionLDAP.php"
     }
 }

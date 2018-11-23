@@ -1,0 +1,15 @@
+{
+    "aliases": [
+        "yd-task-bundle",
+        "task-bundle"
+    ],
+    "bundles": {
+        "YD\\TaskBundle\\YDTaskBundle": [
+            "all"
+        ]
+    },
+    "copy-from-package": {
+        "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_task_bundle.yaml",
+        "Migrations/VersionTask.php": "%CONFIG_DIR%/../src/Migrations/VersionTask.php"
+    }
+}

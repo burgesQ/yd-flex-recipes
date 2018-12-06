@@ -10,5 +10,8 @@
     },
     "copy-from-package": {
         "Resources/config/routing.yml": "%CONFIG_DIR%/routes/yd_samba_bundle.yaml"
+    },
+    "env": {
+        "FILE_UPLOAD_DIR": "/tmp/"
     }
 }
